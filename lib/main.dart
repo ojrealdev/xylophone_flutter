@@ -10,7 +10,7 @@ class XylophoneApp extends StatelessWidget {
   }
 
 // method to print a key
-  buildKey(soundNumber, color) {
+  Expanded buildKey(int soundNumber, color) {
     return Expanded(
       child: Container(
         color: color,
